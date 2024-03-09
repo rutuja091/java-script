@@ -10,29 +10,31 @@
        
 
         const name = prompt(`Enter Your Name`)
-        
+
         console.log(`Welcome ${name}`)
+        document.write(`<b>Name:${name}</b></br>`);
 
-        let Name=("Rutuja Gaikwad") 
-        document.write(`User Name :${Name}`)
+        var Email_id = 'gaikwadrutuja254@gmail.com';
+        const Age=parseInt=(20);
+        let Name=("Rutuja Gaikwad");
+        const birthDate=("9/1/2004");
 
-        var Email_id = ("gaikwadrutuja254@gmail.com")
-        document.write(`User Email :${Email_id}`)
+        document.write(`User Name :${Name}</br>`);
+        document.write(`User Email :${Email_id}</br>`);
+        document.write(`Age:${Age}</br>`);
+        document.write(`Birth Date:${birthDate}</br>`);
 
-        const Age=parseInt("20")
-        document.write(`Age:${Age}`)
 
-        const vot_age=18
-        if(vot_age<=20)
-        {
-           document.write("you are  eligible to voting")
-        } 
-        else
-        {
-            document.write("you are not eligible to voting")
-        }
+       console.log('Name:',Name);
+       console.log('Email:',Email_id);
+       console.log('Age:',Age);
+       console.log('Birth Date:',birthDate);
+
+       console.log("Type of Name: ", typeof Name);
+       console.log("Type of Email: ", typeof Email_id);
+       console.log("Type of Age: ", typeof Age);
+       console.log("Type of Birth Date: ", typeof birthDate);
         
-
     </script>
 </body>
 </html>
