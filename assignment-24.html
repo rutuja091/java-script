@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Of Circle</title>
+</head>
+
+<body>
+    <script>
+        /*Argument And return */
+        function AreaOfCircle(radius) 
+        {
+            const Area = 3.14*radius*radius;
+            return Area
+        }
+        const AreaOfCircleIs = AreaOfCircle(10);
+        document.write(`Area of Circle is: ${AreaOfCircleIs}m<sup>2</sup>`)
+
+
+        
+        document.write(`<br>`)
+
+
+        /* Argument But No return*/
+        function CircleArea(radius)
+         {
+            const Area = 3.14*radius* radius;
+            document.write(`Area of Circle is: ${Area} m<sup>2</sup>`)
+        }
+        CircleArea(10);
+
+
+        document.write(`<br>`)
+
+
+      /* No Argument But Return*/
+        const radius = 40;
+        function AOfCircle() {
+            const Area = 3.14 * radius*radius;
+            return Area
+        }
+        const radiusCircle = AOfCircle();
+        document.write(`Area of Circle is: ${ radiusCircle} m<sup>2</sup>`)
+
+
+            document.write(`<br>`)
+
+
+        /*No Argument And No Return*/
+        const CircleRadius = 80;
+        function AreaCircle() {
+            const Area = 3.14 *  CircleRadius* CircleRadius;
+            document.write(`Area of Circle is: ${Area} m<sup>2</sup>`)
+        }
+        AreaCircle()
+
+    </script>
+</body>
+</html>
